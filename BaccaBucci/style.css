@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* new experiment */
+.logo{
+    width: 20vw;
+    height: 10vh;
+}
+.searchbox > table{
+    border: 1rem solid black;
+    border-width: .1rem;
+    border-color: black;
+    border-collapse: collapse;
+}
+td{
+    width: 10vw;
+    height: 6vh;
+}
+.main{
+    overflow: hidden;
+}
+.searchtd{
+    width: 35vw;
+    height: 5vh;
+    padding-left: 1vw;
+    font-size: 1.4rem;
+    color: gray;
+}
+.searchbg{
+    width: 4.5vw;
+    height: 5vh;
+    text-align: center;
+    background-color: #DCA23F;
+}
+.searchbg > img{
+    width: 2vw;
+    height: 3.5vh;
+}
+.likeicon>img{
+    width: 2vw;
+    /* height: 3.5vh; */
+}
+.boxicon>img{
+    width: 2.25vw;
+    /* height: 2.5vw; */
+}
+.logobar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 1.1vw;
+}
+.searchbox{
+    margin-top: .6vw;
+    margin-left: 9vw;
+}
+.like{
+    display: flex;
+    margin-top: .8rem;
+    gap: 1.2vw;
+    margin-left: 20vw;
+    /* border: 1px solid; */
+}
+.imgbig{
+    width: 100vw;
+}
+.leftimg>img{
+    width: 2.5vw;
+    height: 4.5vh;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem
+}
+.right{
+    display: flex;
+    margin-top: .5vw;
+    color: rgb(75, 75, 75);
+    gap: 2vw;
+    margin-right: 1vw;
+    font-size: 1.2rem;
+}
+
+
+
+
+.sells{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    gap: 1rem;
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+.sells > a{
+    text-decoration: none;
+    color: black;
+}
+.trackorder{
+    display: flex;
+    margin-top: 1.3vw;
+    font-size: 1.5vw;
+    justify-content: center;
+}
+.mainimg{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    margin-left: 1vw;
+    gap: 1vw;
+}
+.lefttext{
+    margin-top: .5vw;
+}
+.right2{
+    display: flex;
+}
+.feature{
+    color: black;
+}
+.shoes{
+    margin-left: 1.1vw;
+}
+.rows{
+    display: flex;
+    gap: .7vw; 
+    overflow-x: scroll;
+}
+.upper{
+    border: .1vw solid gray;
+    /* border-radius: 1vw; */
+    border-bottom: none;
+    width: fit-content;
+}
+.upper> img {
+    width: 20vw;
+}
+.lower{
+    border-collapse: collapse;
+}
+.add{
+    width: 20.18vw;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.addimg{
+    width: 3.5vw;
+    text-align: center;
+    border: 1px solid gray;
+}
+.price{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.del{
+    font-weight: lighter;
+    font-size: .8rem ;
+    color: gray;
+}
+.bacca{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(84, 84, 84);
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 1.5vw;
+}
+.normaltext{
+    margin-top: 1vw;
+}
+.bot1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bot3{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+}
+.bot4{
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    text-align: center;
+}
+.orangetext{
+    color: rgb(255, 140, 0);
+}
+.footer{
+    background-color: black;
+    display: flex;  
+    justify-content: center;
+    gap: 6vw;
+    margin-top: 3vw;
+}
+.foot1{
+    width: 15vw;
+    margin-top: 5vw;
+    color: white;
+}
+.foot2{
+    margin-top: 5vw;
+    color: white;
+}
+.foot3{
+    margin-top: 5vw;
+    color: white;
+}
+.top{
+    position: fixed;
+    color: orange;
+    text-align: center;
+}
+.f1{
+    display: flex;
+    gap: 6vw;
+    margin-top: 3vw;
+}
+.f2{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* margin-top: 5vw; */
+}
+.qr{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    gap: 1vw;
+    justify-content: center;
+}
+.playstore{
+    margin-top: 4vw;
+}
+.f3{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap: 1vw;
+}
+.logo1{
+    margin-top: 3vw;
+}
+.copyright{
+    margin-top: 1vw;
+    color: rgb(61, 61, 61);
+    margin-bottom: 1vw;
+    text-align: center;
+}
