@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    /* margin-left: 12.5vw; */
+    /* margin-right: 12.5vw; */
+    padding: 1.5vw;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 5vh;
+}
+
+.leftnav {
+    display: flex;
+    gap: 1vw;
+    margin-left: 8vw;
+}
+
+.brandname {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    /* vertical-align: middle; */
+    text-align: center;
+    align-content: center;
+}
+
+.rightnav {
+    display: flex;
+    gap: 3.75vw;
+    margin-left: 14vw;
+    margin-right: 15vw;
+}
+
+.logo>img {
+    width: 2.5vw;
+    height: 5vh;
+}
+
+.logo {
+    align-content: center;
+}
+.login > a{
+    text-decoration: none;
+    color: black;
+}
+.about > a{
+    text-decoration: none;
+    color: black;
+}
+.contact > a{
+    text-decoration: none;
+    color: black;
+}
+.login {
+    padding-top: .75vw;
+    font-size: 1rem
+}
+.about {
+    padding-top: .75vw;
+    font-size: 1rem
+}
+.contact {
+    padding-top: .75vw;
+    font-size: 1rem
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    margin-top: 5vw;
+    padding: 2vw;
+    padding-left: 9.5vw;
+    /* padding-right: 15vw; */
+}
+.firstline{
+    display: flex;
+}
+.left1st{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.number{
+    background-color: white;
+    margin-left: 25vw;
+    width: 8vw;
+    padding: 1vw;
+    height: 2.75vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bold;
+    border-radius: .5vw;
+}
+.paragraph{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.paragraph > p{
+    color: blue;
+}
+
+.footer{
+    background-color: #27272F;  
+    width: 100vw;
+    height: 52.2vh;
+    gap: 4vw;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.col4foot{
+    margin-bottom: 2.45vw;
+}
+.col4foot > ul > li{
+list-style-type: none;
+margin-bottom: 1.5vw;
+color: white;
+}
+.col3foot > ul > li{
+list-style-type: none;
+margin-bottom: 1.5vw;
+color: white;
+}
+.col2foot > ul > li{
+list-style-type: none;
+margin-bottom: 1.5vw;
+color: white;
+}
+.imgfooter>img{
+    width: 7vw;
+    height: 12vh;
+}
+.logorow1{
+    display: flex;
+    margin-bottom: 2vw;
+    gap: 1vw;
+}
+.logofoot > img{
+    width: 3vw;
+    height: 4.5vh;
+}

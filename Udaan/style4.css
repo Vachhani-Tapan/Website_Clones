@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    /* margin-left: 12.5vw; */
+    /* margin-right: 12.5vw; */
+    padding: 2.5vw;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #F4F6F9;
+    top: 0;
+    left: 0;
+    height: 5vh;
+}
+
+.leftnav {
+    display: flex;
+    gap: 1vw;
+    margin-left: 4vw;
+}
+
+.rightnav {
+    display: flex;
+    gap: 4.25vw;
+    margin-left: 10vw;
+    margin-right: 8.5vw;
+}
+
+.logo>img {
+    width: 2.5vw;
+    height: 5vh;
+}
+
+
+.download {
+    width: 6.5vw;
+    height: 3vh;
+    /* color: white; */
+    background-color: #BF0711;
+    border: .1vw solid rgba(0, 0, 0, 0.074);
+    border-radius: .5vw;
+    padding-left: 1.255vw;
+    padding-right: 1.255vw;
+    padding-top: .75vw;
+    padding-bottom: .75vw;
+    font-size: 1.05rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.download>a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    padding-top: .75vw;
+    font-size: 1.25rem
+}
+
+.about {
+    padding-top: .75vw;
+    font-size: 1.25rem
+}
+
+.contact {
+    padding-top: .75vw;
+    font-size: 1.25rem
+}
+
+.login>a {
+    text-decoration: none;
+    color: black;
+}
+
+.about>a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact>a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:1400px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    html {
+        font-size: 11.5px;
+    }
+}
+
+.container {
+    margin-left: 6vw;
+    margin-top: 15vw;
+}
+
+.aboutudaan {
+    font-size: 3.25vw;
+    margin-bottom: 2vw;
+}
+
+.para {
+    width: 45vw;
+    font-size: 1.255rem;
+    color: rgba(0, 0, 0, 0.51);
+    margin-bottom: 1.75vw;
+}
+
+.container2 {
+    background-color: #F4F6F9;
+}
+
+.cont2content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+}
+
+.founder {
+    font-size: 1.75rem;
+    margin-top: 5vw;
+    margin-bottom: 2.5vw;
+}
+
+.founderprofile {
+    display: flex;
+}
+
+.rightdis {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5vw;
+}
+
+.fdiscrip {
+    margin-top: 2.25vw;
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.leftimg>img {
+    border-radius: .5vw;
+}
+
+.fname {
+    font-size: 3.75rem;
+    color: rgba(0, 0, 0, 0.681);
+}
+
+.fpara {
+    width: 32vw;
+    font-size: 1.255rem;
+    color: rgba(0, 0, 0, 0.51);
+    margin-bottom: 1.75vw;
+}
+
+.fpara2 {
+    width: 32vw;
+    font-size: 1.255rem;
+    color: rgba(0, 0, 0, 0.51);
+    margin-bottom: 1.75vw;
+}
+
+.fpara2 {
+    width: 32vw;
+    font-size: 1.255rem;
+    color: rgba(0, 0, 0, 0.51);
+    margin-bottom: 1.75vw;
+}
+
+.fpara2mar {
+    width: 32vw;
+    font-size: 1.255rem;
+    color: rgba(0, 0, 0, 0.51);
+    margin-bottom: 5.75vw;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/79eiajwyxh114i0r11xv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/9tnq2l3ktk4s7qey44y7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/iriw78luz3ua6uyrw7au.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/rqj11linqiy0th0kbmc2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/x55sjp4y925x2h093eyn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/dx731tlvu151pjakauan.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/aaix39ya9plpaj37kiil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/ct26gtrdi18elisvqcya.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.imgtext8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    background-image: url(https://img.udaan.com/v2/f_auto,q_auto:eco,w_760/u/assets/ct26gtrdi18elisvqcya.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 55vh;
+    border-radius: .75vw;
+    margin-left: 6vw;
+    align-self: bottom;
+    color: white;
+    font-weight: bold;
+}
+
+.leadername {
+    font-size: 2.25rem;
+    margin-bottom: 1vw;
+}
+
+.role {
+    font-size: 1.25rem;
+}
+
+.leaders {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    font-size: 1.75rem;
+    margin-left: 6vw;
+}
+
+.paralead {
+    width: 47vw;
+    font-size: 1.255rem;
+    color: rgba(0, 0, 0, 0.722);
+    margin-bottom: 1.75vw;
+    margin-left: 6vw;
+    margin-top: 1.75vw;
+}
+
+.paralead2 {
+    width: 47vw;
+    font-size: 1.255rem;
+    color: rgba(0, 0, 0, 0.722);
+    margin-bottom: 5vw;
+    margin-left: 6vw;
+    margin-top: 1.75vw;
+}
+
+.containerfoot {
+    background-color: #F4F6F9;
+    padding: 6vw;
+}
+
+.legal {
+    font-size: 1.55rem;
+    margin-bottom: 4vw;
+}
+
+.htpl {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.364);
+}
+
+.footer {
+    background-color: #27272F;
+    width: 100vw;
+    height: 40vh;
+    gap: 4vw;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.col4foot {
+    margin-bottom: 2.45vw;
+}
+
+.col4foot>ul>li {
+    list-style-type: none;
+    margin-bottom: 1.5vw;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.col3foot>ul>li {
+    list-style-type: none;
+    margin-bottom: 1.5vw;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.col2foot>ul>li {
+    list-style-type: none;
+    margin-bottom: 1.5vw;
+    font-size: 1.2rem;
+    color: white;
+    /* margin-right: 15vw; */
+}
+
+.imgfooter>img {
+    width: 10vw;
+    height: 20vh;
+    margin-right: 10vw;
+}
+
+.logorow1 {
+    display: flex;
+    margin-bottom: 2vw;
+    gap: 1vw;
+}
+
+.logofoot>img {
+    width: 3vw;
+    height: 4.5vh;
+}
